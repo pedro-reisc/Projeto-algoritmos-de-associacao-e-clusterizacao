@@ -1,0 +1,22 @@
+Entre diversas técnicas disponíveis, foi escolhido o uso das técnicas de
+associação e clusterização através do uso dos algoritmos Apriori, FP-Growth e K-means, que
+em conjunto, podem oferecer um arsenal poderoso para analisar, entender e explorar dados
+em diversas aplicações. Ao aplicá-los de maneira integrada e adaptada ao contexto específico,
+é possível obter insights valiosos que podem ser traduzidos em estratégias informadas e
+decisões mais eficientes.
+
+As análises realizadas nesse trabalho foram feitas utilizando uma base de dados de transações
+de um site de e-commerce (Olist - disponível em Kaggle.com). Foi realizada uma análise exploratória prévia dos dados que ajudou a revelar padrões de comportamento dos consumidores. Em seguida para aprofundar o entendimento, foi optado por utilizar Apriori e FP-Growth nessa base para identificar relações entre as categorias de produtos. Outra análise realizada no trabalho foi a comparação de
+tempos de execução entre Apriori e FP-Growth, em duas bases de dados com tamanhos
+diferentes, o que ofereceu insights sobre a eficiência relativa desses métodos em um contexto
+em que podem existir bases de dados de diferentes tamanhos.
+Por último foi realizada a implementação prévia do algoritmo K-means sobre valores de
+pagamento, o que permitiu a formação de diferentes clusters de clientes em função da receita
+que é gerada por ele. Em seguida foi aplicado o algoritmo Apriori nos clusters gerados pelo
+K-means, o que proporcionou resultados distintos em comparação com a análise anterior. Essa
+abordagem revelou padrões de associação específicos em diferentes segmentos de clientes,
+contribuindo para uma compreensão mais refinada do comportamento de compra.
+Este trabalho contribui para a compreensão de como algoritmos de clusterização e associação
+podem ser integrados de maneira sinérgica. A análise comparativa e complementar destas
+técnicas, aplicadas a uma base de dados e-commerce, destaca a importância de adaptar as
+metodologias de acordo com as características específicas do conjunto de dados em questão. 
